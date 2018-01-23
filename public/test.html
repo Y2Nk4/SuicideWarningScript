@@ -1,0 +1,21 @@
+<header>
+	<meta charset="utf-8">
+	<title>A demo For SuicideProtectionSystem</title>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script src="./SPS.js"></script>
+</header>
+<body>
+
+	<center><h1>HI,Here is a demo For SuicideProtectionSystem #OpenSource</h1></center>
+	<center><input placeholder="输入一些文字"></input></center>
+	<center><input placeholder="输入一些文字"></input></center>
+	<center><input placeholder="输入一些文字"></input></center>
+
+</body>
+<script>
+	
+	SPS.check($("input"),function(input){
+		console.log(input);
+		$("input").after("<h1 id='sps-help'>诸事可为，乐观面对，世界虽不完美， 但我们仍可改变。</h1>");
+	});
+</script>
