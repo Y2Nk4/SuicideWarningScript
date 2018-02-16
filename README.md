@@ -6,7 +6,7 @@
 
 快速部署
 -------------
-* 这个项目以来于jQuery，所以在一切之前，你需要先引入jQuery.js
+* 这个项目基于jQuery开发，所以在一切之前，你需要先引入jQuery.js
 ```
   <script src="jquery.js"></script>
 ```
