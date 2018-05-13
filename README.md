@@ -1,4 +1,4 @@
-# SuicideProtectionSystem
+# SuicideWarningSystem
 介绍
 -------------
 ##### -w-我不会写好看的Readme.md啊
